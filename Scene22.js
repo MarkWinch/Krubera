@@ -144,6 +144,8 @@ class Scene22 extends Phaser.Scene {
 
         });
 
+        image = this.add.text(11, 10, ' ', { fontSize: '16px', fill: '#FFF' });
+
     }
 
     update(){
@@ -152,8 +154,7 @@ class Scene22 extends Phaser.Scene {
         
         var today = new Date();
         var diff = Math.abs(today - startdate);
-        this.add.image(30, 18, 'timebackground');
-        var image = this.add.text(11, 10, (diff/1000).toFixed(1), { fontSize: '16px', fill: '#000' });
+        image.setText((diff/1000).toFixed(1));
 
         if (player.x > 800) {
             this.scene.start("Scene23");

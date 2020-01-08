@@ -19,6 +19,8 @@ var player;
 var platforms;
 var cursors;
 
+var image;
+
 var player_x;
 var player_y;
 
