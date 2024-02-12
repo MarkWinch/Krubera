@@ -5,7 +5,7 @@ Krubera is a 2D platformer game written in JavaScript using the Phaser 3 framewo
 The name of this project was inspired by the Krubera Cave in Georgia, one of the deepest known caves on
 Earth.
 
-## Instructions for use
+## Instructions for use.
 
 These instructions will get you a copy of the project up and running on your local machine.
 
